@@ -118,7 +118,7 @@ Prepare inventory, staffing, and logistics before Q4 to maximize seasonal demand
 
 ---
 
-# 📊 Visualizations
+## 📊 Visualizations
 
 ### Monthly Sales Trend
 
@@ -141,8 +141,6 @@ Prepare inventory, staffing, and logistics before Q4 to maximize seasonal demand
 ### Discount vs Profit
 
 ![Discount vs Profit](images/discount_profit.png)
-
----
 
 # 🗃️ SQL Analysis
 
