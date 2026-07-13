@@ -1,47 +1,243 @@
-# Retail Sales Analysis (Python + SQL)
+# 📊 Retail Sales Analysis (Python)
 
-## Overview
-Exploratory Data Analysis on Sample Superstore dataset to understand sales, profit, and business insights.
+A complete Exploratory Data Analysis (EDA) project performed on the Sample Superstore dataset using **Python** and **SQLite**. The objective of this project is to identify sales trends, profitability patterns, and business opportunities through data analysis and visualization.
 
-## Tools & Technologies
-- Python (Pandas, NumPy, Matplotlib, Seaborn)
-- SQLite (sqlite3)
-- Jupyter Notebook
-## Data Cleaning
-- Checked for missing values
-- Verified duplicate records and removed them if present
-- Converted Order Date and Ship Date to datetime format
-- Loaded cleaned data into a SQLite database for SQL analysis
-## Key Insights
+---
 
-### West region leads in sales but Central has the lowest margins.
-**Recommendation:** Investigate Central's cost and discount structure before increasing marketing spend.
+## 📌 Project Overview
 
-### Technology is highly profitable while Furniture suffers due to heavy discounts.
-**Recommendation:** Limit Furniture discounts and invest more in Technology promotions.
+Businesses generate large volumes of transactional sales data every day. This project analyzes retail sales to answer key business questions such as:
 
-### High discounts (>30%) frequently result in losses.
-**Recommendation:** Keep discounts below 20–25% whenever possible.
+- Which regions generate the highest revenue?
+- Which product categories are the most profitable?
+- How do discounts affect profit?
+- Are there seasonal sales trends?
+- What business decisions can improve profitability?
 
-### Strong seasonal demand appears during Q4.
-**Recommendation:** Increase inventory and staffing before Q4 and use promotions during slower months.
+The project combines **Python for data analysis**, **SQLite for SQL querying**, and **data visualization** to generate actionable business insights.
 
-## How to Run
-1. Clone/download the repository
-2. Place `Superstore sales dataset.csv` in `data/` folder
-3. Run `python -m jupyter notebook`
-4. Open `analysis.ipynb`
-### Open in Google Colab
-https://colab.research.google.com/github/KomalVerma90/Retail-Sales-Analysis/blob/main/analysis.ipynb
+---
 
+# 🛠️ Tools & Technologies
 
-## Visualizations
+- **Python**
+  - Pandas
+  - NumPy
+  - Matplotlib
+  - Seaborn
+- **Jupyter Notebook**
+
+---
+
+# 📂 Project Structure
+
+```
+Retail-Sales-Analysis/
+│
+├── analysis.ipynb
+├── README.md
+├── requirements.txt
+│
+├── data/
+│   └── Superstore sales dataset.csv
+│
+└── images/
+    ├── sales_trend.png
+    ├── profit_category.png
+    ├── correlation.png
+    └── discount_profit.png
+```
+
+---
+
+# 🧹 Data Cleaning
+
+The dataset was cleaned before analysis by:
+
+- Checking for missing values
+- Identifying duplicate records
+- Converting date columns into datetime format
+- Validating numerical columns
+- Loading the cleaned dataset into SQLite for SQL-based analysis
+
+---
+
+# 🔍 Exploratory Data Analysis
+
+The project explores:
+
+- Sales by Region
+- Sales by Category
+- Profit by Category
+- Monthly Sales Trend
+- Discount vs Profit Relationship
+- Correlation between numerical variables
+- SQL-based business queries
+
+---
+
+# 📈 Key Business Insights
+
+### 🌍 West Region generated the highest sales.
+
+**Recommendation**
+
+Focus future expansion and inventory planning around high-performing western markets while investigating why other regions are underperforming.
+
+---
+
+### 💻 Technology is the most profitable category.
+
+**Recommendation**
+
+Increase promotional campaigns and inventory allocation for Technology products since they consistently generate strong profit margins.
+
+---
+
+### 🪑 Furniture experiences lower profitability due to heavy discounts.
+
+**Recommendation**
+
+Reduce excessive discounting on Furniture products and review pricing strategies to improve margins.
+
+---
+
+### 💸 Discounts above 30% frequently result in losses.
+
+**Recommendation**
+
+Implement discount limits between **20–25%** to maintain healthy profit margins.
+
+---
+
+### 📅 Sales increase significantly during Q4.
+
+**Recommendation**
+
+Prepare inventory, staffing, and logistics before Q4 to maximize seasonal demand.
+
+---
+
+# 📊 Visualizations
+
+### Monthly Sales Trend
 
 ![Monthly Sales Trend](images/sales_trend.png)
 
+---
+
+### Profit by Category
+
 ![Profit by Category](images/profit_category.png)
+
+---
+
+### Correlation Heatmap
 
 ![Correlation Heatmap](images/correlation.png)
 
+---
+
+### Discount vs Profit
+
 ![Discount vs Profit](images/discount_profit.png)
 
+---
+
+# 🗃️ SQL Analysis
+
+SQLite was used to answer business questions such as:
+
+- Total Sales by Region
+- Sales by Category
+- Top Performing Products
+- Profit Analysis
+- Regional Performance
+
+---
+
+# 🚀 How to Run
+
+Clone the repository
+
+```bash
+git clone https://github.com/KomalVerma90/Retail-Sales-Analysis.git
+```
+
+Move into the project directory
+
+```bash
+cd Retail-Sales-Analysis
+```
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Launch Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+Open
+
+```
+analysis.ipynb
+```
+
+---
+
+# 📚 Dataset
+
+**Dataset:** Sample Superstore Dataset
+
+The dataset contains approximately **10,000 retail transactions** including:
+
+- Orders
+- Sales
+- Profit
+- Discount
+- Customer Segment
+- Product Category
+- Region
+- Shipping Information
+
+---
+
+# 🎯 Skills Demonstrated
+
+- Data Cleaning
+- Exploratory Data Analysis
+- SQL Querying
+- Data Visualization
+- Business Insight Generation
+- Python Programming
+- SQLite Database Integration
+- Statistical Analysis
+
+---
+
+# 🔮 Future Improvements
+
+- Interactive Power BI Dashboard
+- Predictive Sales Forecasting
+- Customer Segmentation
+- Profit Prediction Model
+- KPI Dashboard
+
+---
+
+## 👩‍💻 Author
+
+**Komal Verma**
+
+Aspiring Data Analyst | Python | SQL | Excel | Power BI
+
+GitHub:
+https://github.com/KomalVerma90
+
+LinkedIn:
+(Add your LinkedIn profile here)
