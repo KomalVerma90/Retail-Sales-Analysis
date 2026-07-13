@@ -142,18 +142,6 @@ Prepare inventory, staffing, and logistics before Q4 to maximize seasonal demand
 
 ![Discount vs Profit](images/discount_profit.png)
 
-# 🗃️ SQL Analysis
-
-SQLite was used to answer business questions such as:
-
-- Total Sales by Region
-- Sales by Category
-- Top Performing Products
-- Profit Analysis
-- Regional Performance
-
----
-
 # 🚀 How to Run
 
 Clone the repository
