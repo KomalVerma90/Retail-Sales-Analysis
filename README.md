@@ -236,6 +236,3 @@ Aspiring Data Analyst | Python | SQL | Excel | Power BI
 
 GitHub:
 https://github.com/KomalVerma90
-
-LinkedIn:
-(Add your LinkedIn profile here)
