@@ -1,6 +1,6 @@
 # 📊 Retail Sales Analysis (Python)
 
-A complete Exploratory Data Analysis (EDA) project performed on the Sample Superstore dataset using **Python** and **SQLite**. The objective of this project is to identify sales trends, profitability patterns, and business opportunities through data analysis and visualization.
+A complete Exploratory Data Analysis (EDA) project performed on the Sample Superstore dataset using **Python**. The objective of this project is to identify sales trends, profitability patterns, and business opportunities through data analysis and visualization.
 
 ---
 
@@ -58,7 +58,7 @@ The dataset was cleaned before analysis by:
 - Identifying duplicate records
 - Converting date columns into datetime format
 - Validating numerical columns
-- Loading the cleaned dataset into SQLite for SQL-based analysis
+
 
 ---
 
@@ -72,7 +72,6 @@ The project explores:
 - Monthly Sales Trend
 - Discount vs Profit Relationship
 - Correlation between numerical variables
-- SQL-based business queries
 
 ---
 
@@ -197,11 +196,9 @@ The dataset contains approximately **10,000 retail transactions** including:
 
 - Data Cleaning
 - Exploratory Data Analysis
-- SQL Querying
 - Data Visualization
 - Business Insight Generation
 - Python Programming
-- SQLite Database Integration
 - Statistical Analysis
 
 ---
@@ -220,7 +217,7 @@ The dataset contains approximately **10,000 retail transactions** including:
 
 **Komal Verma**
 
-Aspiring Data Analyst | Python | SQL | Excel | Power BI
+Aspiring Data Analyst | Python | Excel | Power BI
 
 GitHub:
 https://github.com/KomalVerma90
