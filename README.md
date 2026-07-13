@@ -14,7 +14,7 @@ Businesses generate large volumes of transactional sales data every day. This pr
 - Are there seasonal sales trends?
 - What business decisions can improve profitability?
 
-The project combines **Python for data analysis**, **SQLite for SQL querying**, and **data visualization** to generate actionable business insights.
+The project combines **Python for data analysis** and **data visualization** to generate actionable business insights.
 
 ---
 
